@@ -1,0 +1,1 @@
+nvcc ./main.cpp ./cuda_grad/engine.cpp ./cuda_grad/gd.cu ./cuda_grad/nn.cu -o test
